@@ -1,8 +1,8 @@
-# Claude Code CS 1.6 Sound Effects
+# Claude Code Monster Bash Sound Effects
 
-![Claude Code x CS 1.6](asset/cs_16.jpg)
+![Claude Code x Monster Bash](asset/monster_bash_bg.jpg)
 
-Turn your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) sessions into a Counter-Strike 1.6 match with iconic sound effects on every hook event.
+Turn your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) sessions into a Monster Bash pinball session with iconic sound effects on every hook event.
 
 > **macOS only** — uses `afplay` for audio playback.
 
@@ -10,24 +10,24 @@ Turn your [Claude Code](https://docs.anthropic.com/en/docs/claude-code) sessions
 
 | Hook | Sound | When |
 |---|---|---|
-| `SessionStart` | `locknload.wav` | "Lock and load" — session starts |
-| `SessionEnd` | `rounddraw.wav` | "Round draw" — session ends |
-| `Stop` | `ctwin.wav` | "Counter-Terrorists win" — task completed |
-| `PostToolUse` (AskUserQuestion) | `ct_reportingin.wav` | "Reporting in" — Claude asks you a question |
-| `PostToolUse` (ExitPlanMode) | `bombdef.wav` | "Bomb has been defused" — plan finalized |
-| `Elicitation` | `com_reportin.wav` | "Report in" — form displayed |
-| `PostToolUseFailure` | `ct_imhit.wav` | "I'm hit" — a tool call fails |
-| `SubagentStart` | `com_go.wav` | "Go go go" — subagent launched |
-| `SubagentStop` | `roger.wav` | "Roger that" — subagent finished |
-| `PermissionRequest` | `ct_backup.wav` | "Need backup" — permission requested |
-| `UserPromptSubmit` | `ct_affirm.wav` | "Affirmative" — you send a message |
-| `TaskCompleted` | `enemydown.wav` | "Enemy down" — background task completed |
+| `SessionStart` | `Dracula_-_Welcome_to_the_Monster_Bash.mp3` | "Welcome to the Monster Bash" — session starts |
+| `SessionEnd` | `Bride_of_Frankenstein_-_Noooo.mp3` | "Noooo" — session ends |
+| `Stop` | `Bride_of_Frankenstein_-_Get_your_grubby_paws_off_me.mp3` | "Get your grubby paws off me" — task completed |
+| `PostToolUse` (AskUserQuestion) | `Dracula_-_Get_on_your_feet_and_jam.mp3` | "Get on your feet and jam!" — Claude asks you a question |
+| `PostToolUse` (ExitPlanMode) | `Dracula_-_Form_the_moshpit.mp3` | "Form the moshpit" — plan finalized |
+| `Elicitation` | `Dracula_-_Over_here_garlic_bread.mp3` | "Over here, garlic bread" — form displayed |
+| `PostToolUseFailure` | `Dracula_-_Ow.mp3` | "Ow" — a tool call fails |
+| `SubagentStart` | `Dracula_-_Lets_rock.mp3` | "Let's rock!" — subagent launched |
+| `SubagentStop` | `Wolfman_-_Im_outta_here.mp3` | "I'm outta here" — subagent finished |
+| `PermissionRequest` | `Mummy_-_I_wanna_jam.mp3` | "I wanna jam!" — permission requested |
+| `UserPromptSubmit` | `Doctor_-_Get_ready_while_I_flip_the_switch.mp3` | "Get ready while I flip the switch!" — you send a message |
+| `TaskCompleted` | `Dracula_-_Jackpot.mp3` | "Jackpot!" — background task completed |
 
 ## Installation
 
 ```bash
-git clone git@github.com:yagami271/claude-cs16-sounds.git
-cd claude-cs16-sounds
+git clone git@github.com:w3cdotorg/claude-monster-bash-sounds.git
+cd claude-monster-bash-sounds
 ./install.sh
 ```
 
@@ -64,38 +64,38 @@ Open (or create) `~/.claude/settings.json` and add the `hooks` key from [`hooks-
 {
   "hooks": {
     "SessionStart": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/locknload.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Welcome_to_the_Monster_Bash.mp3 &" }] }
     ],
     "SessionEnd": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/rounddraw.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Bride_of_Frankenstein_-_Noooo.mp3 &" }] }
     ],
     "Stop": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/ctwin.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Bride_of_Frankenstein_-_Get_your_grubby_paws_off_me.mp3 &" }] }
     ],
     "PostToolUse": [
-      { "matcher": "AskUserQuestion", "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/ct_reportingin.wav &" }] },
-      { "matcher": "ExitPlanMode", "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/bombdef.wav &" }] }
+      { "matcher": "AskUserQuestion", "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Get_on_your_feet_and_jam.mp3 &" }] },
+      { "matcher": "ExitPlanMode", "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Form_the_moshpit.mp3 &" }] }
     ],
     "Elicitation": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/com_reportin.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Over_here_garlic_bread.mp3 &" }] }
     ],
     "PostToolUseFailure": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/ct_imhit.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Ow.mp3 &" }] }
     ],
     "SubagentStart": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/com_go.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Lets_rock.mp3 &" }] }
     ],
     "SubagentStop": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/roger.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Wolfman_-_Im_outta_here.mp3 &" }] }
     ],
     "PermissionRequest": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/ct_backup.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Mummy_-_I_wanna_jam.mp3 &" }] }
     ],
     "UserPromptSubmit": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/ct_affirm.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Doctor_-_Get_ready_while_I_flip_the_switch.mp3 &" }] }
     ],
     "TaskCompleted": [
-      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/enemydown.wav &" }] }
+      { "hooks": [{ "type": "command", "command": "afplay ~/.claude/sounds/Dracula_-_Jackpot.mp3 &" }] }
     ]
   }
 }
@@ -107,21 +107,7 @@ Open (or create) `~/.claude/settings.json` and add the `hooks` key from [`hooks-
 
 ## Customization
 
-All 45 CS 1.6 sounds are included in the `sounds/` directory. Feel free to swap any sound by editing `~/.claude/settings.json` and changing the filename. Available sounds:
-
-```
-blow.wav         bombdef.wav       bombpl.wav        circleback.wav
-clear.wav        com_followcom.wav com_getinpos.wav  com_go.wav
-com_reportin.wav ct_affirm.wav     ct_backup.wav     ct_coverme.wav
-ct_enemys.wav    ct_fireinhole.wav ct_imhit.wav      ct_inpos.wav
-ct_point.wav     ct_reportingin.wav ctwin.wav        elim.wav
-enemydown.wav    getout.wav        go.wav            hitassist.wav
-hosdown.wav      letsgo.wav        locknload.wav     matedown.wav
-meetme.wav       moveout.wav       negative.wav      position.wav
-regroup.wav      rescued.wav       roger.wav         rounddraw.wav
-sticktog.wav     stormfront.wav    takepoint.wav     terwin.wav
-vip.wav          ...
-```
+269 Monster Bash pinball sounds are included in the `sounds/` directory. Feel free to swap any sound by editing `~/.claude/settings.json` and changing the filename.
 
 ## Requirements
 

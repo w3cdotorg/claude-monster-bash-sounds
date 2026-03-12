@@ -4,7 +4,7 @@ set -e
 SOUNDS_DIR="$HOME/.claude/sounds"
 SETTINGS_FILE="$HOME/.claude/settings.json"
 
-echo "=== Claude Code CS 1.6 Sound Effects Installer ==="
+echo "=== Claude Code Monster Bash Sound Effects Installer ==="
 echo ""
 
 # Create sounds directory
@@ -22,7 +22,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/locknload.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Welcome_to_the_Monster_Bash.mp3 &"
           }
         ]
       }
@@ -32,7 +32,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/rounddraw.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Bride_of_Frankenstein_-_Noooo.mp3 &"
           }
         ]
       }
@@ -42,7 +42,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/ctwin.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Bride_of_Frankenstein_-_Get_your_grubby_paws_off_me.mp3 &"
           }
         ]
       }
@@ -53,7 +53,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/ct_reportingin.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Get_on_your_feet_and_jam.mp3 &"
           }
         ]
       },
@@ -62,7 +62,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/bombdef.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Form_the_moshpit.mp3 &"
           }
         ]
       }
@@ -72,7 +72,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/com_reportin.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Over_here_garlic_bread.mp3 &"
           }
         ]
       }
@@ -82,7 +82,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/ct_imhit.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Ow.mp3 &"
           }
         ]
       }
@@ -92,7 +92,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/com_go.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Lets_rock.mp3 &"
           }
         ]
       }
@@ -102,7 +102,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/roger.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Wolfman_-_Im_outta_here.mp3 &"
           }
         ]
       }
@@ -112,7 +112,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/ct_backup.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Mummy_-_I_wanna_jam.mp3 &"
           }
         ]
       }
@@ -122,7 +122,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/ct_affirm.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Doctor_-_Get_ready_while_I_flip_the_switch.mp3 &"
           }
         ]
       }
@@ -132,7 +132,7 @@ HOOKS='{
         "hooks": [
           {
             "type": "command",
-            "command": "afplay '"$SOUNDS_DIR"'/enemydown.wav &"
+            "command": "afplay '"$SOUNDS_DIR"'/Dracula_-_Jackpot.mp3 &"
           }
         ]
       }
@@ -171,4 +171,4 @@ echo ""
 echo "=== Installation complete! ==="
 echo "Restart Claude Code to activate the sounds."
 echo ""
-echo "Test a sound: afplay $SOUNDS_DIR/locknload.wav"
+echo "Test a sound: afplay $SOUNDS_DIR/Dracula_-_Welcome_to_the_Monster_Bash.mp3"

@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/locknload.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Welcome_to_the_Monster_Bash.mp3 &"
           }
         ]
       }
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/rounddraw.wav &"
+            "command": "afplay ~/.claude/sounds/Bride_of_Frankenstein_-_Noooo.mp3 &"
           }
         ]
       }
@@ -25,7 +25,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/ctwin.wav &"
+            "command": "afplay ~/.claude/sounds/Bride_of_Frankenstein_-_Get_your_grubby_paws_off_me.mp3 &"
           }
         ]
       }
@@ -36,7 +36,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/ct_reportingin.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Get_on_your_feet_and_jam.mp3 &"
           }
         ]
       },
@@ -45,7 +45,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/bombdef.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Form_the_moshpit.mp3 &"
           }
         ]
       }
@@ -55,7 +55,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/com_reportin.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Over_here_garlic_bread.mp3 &"
           }
         ]
       }
@@ -65,7 +65,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/ct_imhit.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Ow.mp3 &"
           }
         ]
       }
@@ -75,7 +75,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/com_go.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Lets_rock.mp3 &"
           }
         ]
       }
@@ -85,7 +85,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/roger.wav &"
+            "command": "afplay ~/.claude/sounds/Wolfman_-_Im_outta_here.mp3 &"
           }
         ]
       }
@@ -95,7 +95,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/ct_backup.wav &"
+            "command": "afplay ~/.claude/sounds/Mummy_-_I_wanna_jam.mp3 &"
           }
         ]
       }
@@ -105,7 +105,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/ct_affirm.wav &"
+            "command": "afplay ~/.claude/sounds/Doctor_-_Get_ready_while_I_flip_the_switch.mp3 &"
           }
         ]
       }
@@ -115,7 +115,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay ~/.claude/sounds/enemydown.wav &"
+            "command": "afplay ~/.claude/sounds/Dracula_-_Jackpot.mp3 &"
           }
         ]
       }
