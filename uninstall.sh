@@ -4,7 +4,7 @@ set -e
 SOUNDS_DIR="$HOME/.claude/sounds"
 SETTINGS_FILE="$HOME/.claude/settings.json"
 
-echo "=== Claude Code CS 1.6 Sound Effects Uninstaller ==="
+echo "=== Claude Code Monster Bash Sound Effects Uninstaller ==="
 echo ""
 
 # Remove sounds
