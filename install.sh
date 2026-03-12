@@ -12,7 +12,7 @@ mkdir -p "$SOUNDS_DIR"
 
 # Copy sounds
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-cp "$SCRIPT_DIR"/sounds/*.wav "$SOUNDS_DIR/"
+cp "$SCRIPT_DIR"/sounds/*.mp3 "$SOUNDS_DIR/"
 echo "[OK] Sounds copied to $SOUNDS_DIR"
 
 # Hooks configuration
